@@ -6,14 +6,14 @@ mongoose.connect('localhost:27017/shopping');
 var products = [
 		new Product({
 			imagePath: 'http://www.samsung.com/global/galaxy/galaxy-s8/images/gallery/galaxy-s8_gallery_left_side_coralblue_s4.png',
-			title: 'Samsung S8 Edge',
 			description: 'New Samsung in market',
+			title: 'Samsung S8 Edge',
 			price: 800
 		}),
 		new Product({
 			imagePath: 'http://mobitrends.co.ke/wp-content/uploads/2016/06/Tecno-Camon-C9-in-Kenya.jpg',
 			title: 'Tecno Camon C9',
-			description: 'better New Phone in Kenya',
+			description: 'Better New Phone in Kenya',
 			price: 140
 		}),
 		new Product({
@@ -29,7 +29,7 @@ var products = [
 			price: 100
 		}),
 		new Product({
-			imagePath: 'http://sonyglobal.scene7.com/is/image/gwtprod/53acebc1f69c9f232d3f3e3eefdbe7c3?fmt=pjpeg&wid=330&bgcolor=F1F5F9&bgc=F1F5F9',
+			imagePath: 'http://images.samsung.com/is/image/samsung/p5/global/mkt/tv-overview/smart/samsung-tv-suhd-smart-autodetection.jpg?$ORIGIN_JPG$',
 			title: 'Samsung Smart TV',
 			description: 'TV LED 4K SAMSUNG Smart TV 55',
 			price: 3000
